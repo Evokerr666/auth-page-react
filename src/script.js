@@ -3,9 +3,7 @@ import React from 'react';
 export const SuccessWindow = ({ username }) => {
   return (
     <div className="success-window">
-      <h2>Успешный вход</h2>
-      <p>Добро пожаловать, {username}!</p>
-
+      <h2>Успешный вход!</h2>
       <style jsx>{`
         .success-window {
           display: flex;
@@ -29,13 +27,10 @@ export const SuccessWindow = ({ username }) => {
   );
 };
 
-
-
 const ErrorDisplay = ({ error }) => {
   return (
     <div className="error-display">
       <p className="error-message">{error}</p>
-
       <style jsx>{`
         .error-display {
           display: flex;

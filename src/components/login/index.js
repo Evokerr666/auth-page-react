@@ -38,6 +38,7 @@ const Login = () => {
             type="email"
             id="email"
             value={email}
+            placeholder='Введите электронную почту'
             onChange={(e) => setEmail(e.target.value)}
             required
           />
@@ -48,6 +49,7 @@ const Login = () => {
             type="password"
             id="password"
             value={password}
+            placeholder='Введите пароль'
             onChange={(e) => setPassword(e.target.value)}
             required
           />
